@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100%;
+    margin: auto 0;
+    font-family: 'Raleway', 'Microsoft JhengHei';
+}
+
+.fixed-bg {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(105, 111, 220);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main-text {
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.sub-text {
+    color: #fff;
+    line-height: 0px;
+
+}
+
+.text-box {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    margin: 0;
+    max-width: 500px;
+}
+
+.fixed-bg h2 {
+    font-size: 30px;
+}
+
+.fixed-bg p {
+    text-align: center;
+    max-width: 500px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.bg-1 {
+    background-image: url("img/4.jpg");
+}
+
+.bg-1-1 {
+    background-image: url("img/5.jpg");
+}
+
+.bg-2 {
+    background-image: url("img/11.jpg");
+}
+
+.bg-2-1 {
+    background-image: url("img/10.jpg");
+}
+
+.bg-3 {
+    background-image: url("img/60.jpg");
+}
+
+.bg-3-1 {
+    background-image: url("img/7.jpg");
+}
+
+.bg-4 {
+    background-image: url("img/8.jpg");
+}
